@@ -1,0 +1,56 @@
+body {
+    background-image: url("./media/setup.jpg");
+}
+
+h1 {
+    transition: all 0.3s ease-in-out;
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 2.5px #fff, 0 0 1.25px #fff, 0 0 2.5px #a3a3a3, 0 0 3.75px #8d8d8d, 0 0 5px #3b3b3b, 0 0 6.25px #5c5c5c, 0 0 7.25px #2c2c2c;
+    }
+
+    to {
+        text-shadow: 0 0 2.5px #fff, 0 0 2.5px #ffffff, 0 0 5px #ffffff, 0 0 6.75px #ffffff, 0 0 7.5px #9b9b9b, 0 0 8.75px #838383, 0 0 10px #808080;
+    }
+}
+
+.aboutme {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: rgb(185, 185, 185);
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-family: "Josefin Sans", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.card {
+    max-width: 75%;
+    max-height: 50%;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.219);
+    backdrop-filter: blur(50px);
+    margin-top: 20em;
+    transition: all 0.3s ease-in-out;
+}
+
+
+hr {
+    opacity: 0;
+}
